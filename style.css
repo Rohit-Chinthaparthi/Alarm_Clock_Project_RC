@@ -1,0 +1,89 @@
+body{
+    background: rgb(58, 225, 136);
+    background: linear-gradient(80deg, rgba(55, 247, 113, 0.927) 0%, rgb(236, 157, 157) 67%);
+    text-align: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 5px solid black;
+    border-radius:100px ;
+    margin: auto 10rem;
+    min-height: 80vh;
+    padding-top: 2px;
+}
+#setAlarm{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#setAlarm>input{
+    background: rgb(58, 225, 136);
+    background: linear-gradient(80deg, rgba(55, 247, 113, 0.927) 0%, rgb(236, 157, 157) 67%);
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: fantasy;
+    border: 1px solid black;
+    border-radius:20px ;
+    padding: 8px 10px;
+}
+#setAlarm>button{
+    background: rgb(58, 225, 136);
+    background: linear-gradient(80deg, rgba(55, 247, 113, 0.927) 0%, rgb(236, 157, 157) 67%);
+    font-weight: 200;
+    font-size: 2rem;
+    border: 1px solid black;
+    font-family: fantasy;
+    border-radius:20px ;
+    padding: 8px 10px;
+}
+.alrm-container{
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.alrmCont{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0 2rem;
+    gap: 10px;
+   
+}
+
+.popup{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(80deg, rgba(15, 2, 24, 0.768) 0%, rgba(1, 1, 23, 0.488) 34%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(196, 196, 196);
+    padding: 20vw;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.off{
+    visibility: hidden;
+}
+.stop{
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius:20px ;
+}
